@@ -5,7 +5,7 @@
   
   // create an express server & set a port to 8000
   const app = express();
-  const PORT = process.env.PORT || 8000;
+  const PORT = process.env.PORT || 8080;
 
 //Parse app body as JSON
 app.use(express.urlencoded({ extended: true }));
