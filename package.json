@@ -1,7 +1,7 @@
 {
   "name": "burger-app",
   "version": "1.0.0",
-  "description": "eat-da-burger app is a restaurant app that lets users input the names of burgers they'd like to eat.",
+  "description": "Eat-da-Burger app is a restaurant app that lets users input the names of burgers they'd like to eat.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
