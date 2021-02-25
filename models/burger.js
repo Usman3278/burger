@@ -8,7 +8,7 @@ const burger = {
         });
     },
     //Add new burger to database
-    //Variables cols and vals are arrays
+    
     insertOne: function(cols, vals, cb) {
         orm.insertOne("burgers", cols, vals, function(res) {
             cb(res);

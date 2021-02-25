@@ -1,13 +1,14 @@
-  // add required modules
-  var PORT = process.env.PORT || 5000;
-  const express = require("express");
-  const path = require("path");
-  
-  // create an express server & set a port to 8000
-  const app = express();
-  const PORT = process.env.PORT || 8080;
+//Add required modules
+const express = require("express");
+const path = require("path");
 
-//Parse app body as JSON
+var app = express();
+var PORT = process.env.PORT || 8000;
+
+
+app.use(express.static("public"));
+
+//Read URL or JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -24,7 +25,7 @@ app.use(routes);
 
 //Listener
 app.listen(PORT, function() {
-    //Log serve when server has started
-    console.log("server listening on: http://localhost:" + PORT);
+    //Log server when server has started
+    console.log("App listening on PORT: "  + PORT);
 });
 
