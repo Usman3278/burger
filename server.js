@@ -1,7 +1,7 @@
 //Add required modules
 const express = require('express');
 
-const PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8080;
 
 const app = express();
 
