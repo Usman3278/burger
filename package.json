@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Usman3278/burger"
   },
-  "author": "",
+  "author": "Muhammad Usman",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Usman3278/burger/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/Usman3278/burger/blob/main/README.md",
   "dependencies": {
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
